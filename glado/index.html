@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Girlfriend | My Love ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">My Love ❤️</a>
+
+            <div class="navlinks">
+                <a href="#home">Home</a>
+                <a href="#photos">Our Photos</a>
+                <a href="#letter">Love Letter</a>
+                <a href="#music">Our Music</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Homepage -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="small-heading">A little world made for you</p>
+
+            <h1>My Beautiful Girl, <span>MY SWEETPIE ❤️</span></h1>
+
+            <p class="hero-text">
+                Every love story is beautiful, but ours is my favourite.
+                You make my world brighter just by being in it.
+            </p>
+
+            <a href="#letter" class="love-button">
+                Read My Love Letter 💌
+            </a>
+        </div>
+    </section>
+
+    <!-- Photo Gallery -->
+    <section id="photos" class="section">
+        <p class="small-heading">Our beautiful moments</p>
+        <h2>Our Memories 📸</h2>
+
+        <p class="section-intro">
+            Every picture holds a memory I want to keep forever.
+        </p>
+
+        <div class="photo-gallery">
+            <div class="photo-card">
+                <img src="photos/photo1.jpg"
+                     alt="photo1">
+                <p>Our special memory 💖</p>
+            </div>
+
+            <div class="photo-card">
+                <img src="photos/photo2.jpg"
+                     alt="photo2">
+                <p>My favourite person 💕</p>
+            </div>
+
+            <div class="photo-card">
+                <img src="photos/photo3.jpg"
+                     alt="photo3">
+                <p>My happiness 🥰</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Love Letter -->
+    <div class="envelope-container">
+    <p>Honey, I have a little secret for you 💕</p>
+
+    <button id="envelopeBtn" class="envelope" type="button"
+            aria-label="Open your secret love letter">
+        💌
+        <span>Tap to open</span>
+    </button>
+    <div id="askBox" class="ask-box" hidden>
+    <p>Do you want to read it now? 💌</p>
+    <button id="yesBtn" class="ask-btn" type="button">Yes 💖</button>
+    <button id="noBtn" class="ask-btn" type="button">No 🙈</button>
+</div>
+
+    <div id="surpriseLetter" class="surprise-letter" hidden>
+        <h3>My Sweetheart ❤️</h3>
+        <p>
+            If I could give you one thing in life,
+            I would give you the ability to see yourself
+            through my eyes. Then you would understand
+            just how special you are to me.
+        </p>
+        <p>
+            You are my happiness, my favourite person,
+            and a beautiful part of my life. No matter
+            how many times I say it, I will never get
+            tired of telling you that you mean so much to me. 🥹❤️
+        </p>
+        <p class="surprise-ending">I choose you, today and always. 💋</p>
+    </div>
+</div>
+
+    <!-- Music -->
+    <section id="music" class="section music-section">
+        <p class="small-heading">A song for us</p>
+        <h2>Our Special Song 🎵</h2>
+
+        <div class="music-card">
+            <div class="music-heart">💗</div>
+
+            <h3>A Little Music For My Love</h3>
+            <p>Every melody reminds me of you.</p>
+            <audio id="loveSong" loop>
+                <source src="music/love-song.mp3" type="audio/mpeg">
+                Your browser does not support audio.
+            </audio>
+
+            <button id="musicBtn" class="love-button" type="button">
+                ▶ Play Our Song
+            </button>
+
+            <p id="musicStatus" class="music-status">
+                Tap play to listen to your song.
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Made with ❤️ for my beautiful girl.</p>
+        <p>Every day, you are special to me.</p>
+        <a href="#home">Back to top ↑</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
